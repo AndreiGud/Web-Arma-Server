@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% load static %}
+    {% block title %}<title>Сайт Арма3 - Представление сервера</title>{% endblock %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{% static 'css\styles.css' %}" rel="stylesheet">
+
+
+</head>
+<body class="blank">
+
+
+
+
+        <div class="container-nav center-block">
+            <ul class=".nav section-menu">
+            <li><a href="{% url 'Домашняя' %}" target="_self" class="header-a-button border-bottom-anim"><span>Главная</span> <span>страница</span></a></li>
+            <li><a href="{% url 'Карта' %}" target="_self" class="header-a-button border-bottom-anim"><span>Карта</span></a></li>
+            <li><a href="" target="_self" class="header-a-button border-bottom-anim"><span>Вторая ссылка</span></a></li>
+            <li><a href="" target="_self" class="header-a-button border-bottom-anim"><span>ссылка</span></a></li>
+            <li><a href="" target="_self" class="header-a-button border-bottom-anim"><span>ссылка</span></a></li>
+            <li><a href="" target="_self" class="header-a-button border-bottom-anim"><span>ссылка побольше</span> </a></li>
+            <li><a href="" target="_self" class="header-a-button border-bottom-anim"><span>ссылка</span></a></li>
+            <li><a href="" target="_self" class="header-a-button border-bottom-anim"><span>ссылка</span></a></li>
+            <li><a href="" target="_self" class="header-a-button border-bottom-anim"><span>ссылка побольше</span> </a></li>
+            </ul>
+        </div>
+
+
+    <section class="main-section center-block container main-content-scoped">
+                 {% block content %}
+                     <div class="">
+                         Информация не заполнена
+                     </div>
+                 {% endblock %}
+    </section>
+
+
+
+
+
+            {% block footer %}
+                <div class="divider"></div>
+                <div class="footer-text">
+                    {% block copyright %}
+                    <p>"Сервер Миротворец Spar", 2023. Сайт представления</p>
+                    {% endblock %}
+                </div>
+
+             {% endblock %}
+
+</body>
+</html>

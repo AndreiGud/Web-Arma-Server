@@ -20,5 +20,6 @@ from siteapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='Домашняя')
+    path('', views.index, name='Домашняя'),
+    path('map_page', views.map_page, name='Карта'),
 ]

@@ -1,0 +1,119 @@
+.logo-in-head{
+    width:  calc(300px * 1.6);
+    height: calc(300px * 0.9);
+}
+.main-content-scoped {
+    margin-top: 115px;
+}
+.main-content {
+    position: relative;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(165, 165, 165, 0.2);
+    box-shadow: 0 0 5px 0px #000;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+.container-nav {
+
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.blank {
+    background-image: url("blank.jpg");
+}
+body {
+    color: #fff;
+    font-size: 16px;
+    background-color: #000;
+    font-family: purista-web, sans-serif;
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.site-page a {
+    color: #c48214;
+}
+a {
+    outline: 0;
+    color: #fff;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.header-a-button {
+    display: inline-block;
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.nav-justified, .nav-tabs.nav-justified {
+    width: 100%;
+}
+.section-menu {
+    text-align: center;
+    font-size: 70%;
+    margin: auto 5% auto 5%;
+    padding: 0;
+}
+li {
+    width: 15%;
+    padding-left: 0;
+    padding-right: 0;
+    border-right: 1px solid #292929;
+    border-left: 1px solid #292929;
+    display: table-cell;
+}
+li a {
+    height: 47px;
+    padding: 7px 0;
+    display: block;
+}
+.main-section {
+    overflow: hidden;
+    padding-top: 52px;
+    padding-bottom: 22px;
+    max-width: 1920px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-text{
+    font-size: 90%;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+}
+p{
+    margin: 0 0 10px;
+}
+.divider{
+    height: 30px;
+    clear: both;
+    width: 100%;
+}
